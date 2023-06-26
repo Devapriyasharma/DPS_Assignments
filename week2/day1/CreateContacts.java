@@ -24,8 +24,7 @@ public class CreateContacts {
 		driver.findElement(By.name("submitButton")).click();
 		System.out.println(driver.getTitle());
 		System.out.println(driver.findElement(By.id("viewContact_firstName_sp")).getText());
-		
-//		driver.quit();
+		driver.quit();
 		
 
 }
